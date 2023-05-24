@@ -1,11 +1,11 @@
-# telegram_bot_with_chatGPT
+# Telegram Bot With ChatGPT integration
 Node.JS application to interact a Telegram BOT with ChatGPT API
 
-SETUP:
-Run npm install
-Create .env file (cp .env.example .env)
-Insert in .env file your ChatGPT API Key & Telegram Bot Token
+<b>SETUP:</b><br />
+Run <i>npm install</i><br />
+Create .env file (cp .env.example .env)<br />
+Insert in .env file your ChatGPT API Key & Telegram Bot Token<br />
+<br />
 
-
-RUN APPLICATION:
+<b>RUN APPLICATION:</b><br />
 node index.js

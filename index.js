@@ -37,9 +37,9 @@ bot.on('message', async (msg) => {
 
         bot.sendMessage(chatId, reply);
     } catch (error) {
-        console.log('Errore durante la comunicazione con ChatGPT:', error);
-        bot.sendMessage(chatId, 'Mi spiace ho mal di testa ora...')
+        console.log('Error during ChatGPT comunication:', error);
+        bot.sendMessage(chatId, 'I\'m sorry I have a headache right now...')
     }
 })
 
-console.log('Bot in ascolto...');
+console.log('Bot hearing...');
